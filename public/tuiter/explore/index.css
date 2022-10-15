@@ -1,8 +1,15 @@
-body{
-    background: black;
-    margin-left: 12px;
-    border-color: rgb(47, 51, 54);
+.wd-search-color {
+    color: darkgrey;
 }
+
+.wd-grey-color {
+    color: #aa66cc;
+}
+
+.wd-rounded-button {
+    border-radius: 10px;
+}
+
 .wd-search-bar {
     float: left;
     background-color: darkgray;
@@ -22,12 +29,6 @@ body{
 .wd-for-you-link{
     color: rgb(29,161,242);
     border-bottom:solid;
-}
-
-a{
-    padding: 14px;
-    font-size: 14px;
-    color: darkgray;
 }
 
 .wd-simple-posts{

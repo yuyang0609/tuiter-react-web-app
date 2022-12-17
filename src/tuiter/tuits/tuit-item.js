@@ -3,6 +3,7 @@ import TuitsStats from "./tuit-stats";
 import {useDispatch} from "react-redux";
 import {deleteTuitThunk} from "../../services/tuits-thunks";
 
+
 const TuitItem = ({tuit}) => {
     const dispatch = useDispatch();
     const deleteTuitHandler = (id) => {
